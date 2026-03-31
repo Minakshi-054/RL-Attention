@@ -1,0 +1,136 @@
+{
+  "fold": 1,
+  "model": "rl_bilstm",
+  "train_metrics": {
+    "accuracy": 0.9220988820658164,
+    "precision": 0.8746931618936294,
+    "recall": 0.8918951132300358,
+    "f1": 0.8832103865447034,
+    "confusion_matrix": [
+      [
+        31884,
+        2144
+      ],
+      [
+        1814,
+        14966
+      ]
+    ],
+    "classification_report": {
+      "0.0": {
+        "precision": 0.9461689121016084,
+        "recall": 0.9369930645350888,
+        "f1-score": 0.9415586333165993,
+        "support": 34028.0
+      },
+      "1.0": {
+        "precision": 0.8746931618936294,
+        "recall": 0.8918951132300358,
+        "f1-score": 0.8832103865447034,
+        "support": 16780.0
+      },
+      "accuracy": 0.9220988820658164,
+      "macro avg": {
+        "precision": 0.910431036997619,
+        "recall": 0.9144440888825622,
+        "f1-score": 0.9123845099306513,
+        "support": 50808.0
+      },
+      "weighted avg": {
+        "precision": 0.9225631199332512,
+        "recall": 0.9220988820658164,
+        "f1-score": 0.9222883691685829,
+        "support": 50808.0
+      }
+    }
+  },
+  "val_metrics": {
+    "accuracy": 0.685650938820758,
+    "precision": 0.6009158751696065,
+    "recall": 0.6186485070717653,
+    "f1": 0.6096532736814936,
+    "confusion_matrix": [
+      [
+        6353,
+        2353
+      ],
+      [
+        2184,
+        3543
+      ]
+    ],
+    "classification_report": {
+      "0.0": {
+        "precision": 0.7441724259107415,
+        "recall": 0.7297266253158741,
+        "f1-score": 0.7368787333990605,
+        "support": 8706.0
+      },
+      "1.0": {
+        "precision": 0.6009158751696065,
+        "recall": 0.6186485070717653,
+        "f1-score": 0.6096532736814936,
+        "support": 5727.0
+      },
+      "accuracy": 0.685650938820758,
+      "macro avg": {
+        "precision": 0.672544150540174,
+        "recall": 0.6741875661938197,
+        "f1-score": 0.6732660035402771,
+        "support": 14433.0
+      },
+      "weighted avg": {
+        "precision": 0.6873283695056642,
+        "recall": 0.685650938820758,
+        "f1-score": 0.686395797917698,
+        "support": 14433.0
+      }
+    }
+  },
+  "test_metrics": {
+    "accuracy": 0.8288508557457213,
+    "precision": 0.7478902953586498,
+    "recall": 0.7385416666666667,
+    "f1": 0.7431865828092243,
+    "confusion_matrix": [
+      [
+        1664,
+        239
+      ],
+      [
+        251,
+        709
+      ]
+    ],
+    "classification_report": {
+      "0.0": {
+        "precision": 0.8689295039164491,
+        "recall": 0.8744088281660536,
+        "f1-score": 0.8716605552645365,
+        "support": 1903.0
+      },
+      "1.0": {
+        "precision": 0.7478902953586498,
+        "recall": 0.7385416666666667,
+        "f1-score": 0.7431865828092243,
+        "support": 960.0
+      },
+      "accuracy": 0.8288508557457213,
+      "macro avg": {
+        "precision": 0.8084098996375495,
+        "recall": 0.8064752474163601,
+        "f1-score": 0.8074235690368804,
+        "support": 2863.0
+      },
+      "weighted avg": {
+        "precision": 0.8283435310853324,
+        "recall": 0.8288508557457213,
+        "f1-score": 0.8285816123525213,
+        "support": 2863.0
+      }
+    }
+  },
+  "rl_epochs": 15,
+  "rl_learning_rate": 0.0001,
+  "pretrained_model_path": "/home/Students/stg60/RL/RL_Pole/smfallData/results/attn_bilstm_results/fold_1/attn_bilstm_best.keras"
+}
